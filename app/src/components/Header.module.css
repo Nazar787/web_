@@ -1,0 +1,100 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 10px 40px; 
+  background-color: #f9f9f9;
+  position: relative; 
+}
+
+.header::after {
+  content: ''; 
+  position: absolute;
+  bottom: 0; 
+  height: 1px;
+  background-color: #2B2F32; 
+  left: 40px;
+  right: 40px;
+}
+
+.logo {
+  height: 75px;
+}
+
+.nav {
+  display: flex; 
+  gap: 30px; 
+  justify-content: center; 
+}
+
+.navLink {
+  text-decoration: none;
+  color: #000000c3;
+  font-weight: 500;
+  font-size: 18px; 
+  padding: 8px 16px;
+  border-radius: 10px; 
+  transition: background-color 0.2s ease;
+}
+
+.navLink:hover {
+  background: #ababab7a;
+  color: #000000;
+}
+
+.active {
+  background-color: #ababab7a;
+  color: #000000;
+  font-weight: 500;
+}
+
+.utilityContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.searchForm {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.searchInput {
+  border: none;
+  border-radius: 25px;
+  padding: 8px 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.searchButton {
+  border: none;
+  background-color: #ababab7a;
+  padding: 0 12px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartLink {
+  display: inline-block;
+  padding: 8px; 
+  border-radius: 10px;
+  transition: background-color 0.2s ease;
+  line-height: 0; 
+}
+
+.cartLink:hover {
+  background: #ababab7a; 
+}
+
+.cartIcon {
+  height: 24px; 
+  width: 24px;
+  vertical-align: middle; 
+}
