@@ -1,0 +1,55 @@
+.filterSection {
+    padding: 24px 40px;
+    background-color: #ffffff;
+    font-weight: 500;
+    position: relative;
+    width: 100%; 
+}
+
+.filterSection::after {
+    content: ''; 
+    position: absolute;
+    bottom: 0; 
+    height: 1px;
+    background-color: #e0e0e0; 
+    left: 40px;
+    right: 40px;
+}
+
+.filterContent {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end; 
+    width: 100%;
+}
+
+.filterBar {
+    display: flex; 
+    align-items: flex-end; 
+    gap: 25px; 
+}
+
+.filterBar select {
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 1px solid #110455;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    height: 40px; 
+    color: #393939;
+    cursor: pointer;
+    font-weight: 500;
+    min-width: 120px;
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: flex-end; 
+    gap: 15px; 
+}
+
+.applyButton {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}

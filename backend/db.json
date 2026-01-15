@@ -1,0 +1,73 @@
+{
+  "products": [
+    {
+      "id": 101,
+      "title": "L’Interdit Rouge",
+      "brand": "GIVENCHY",
+      "description": "Bold yet elegantly refined, Givenchy L’Interdit Rouge opens with fiery bursts of red orange and ginger, flows into a heart of jasmine and tuberose.",
+      "type": "eau de parfum",
+      "volume": "125 ML",
+      "price": 152,
+      "imageUrl": "parLinterdit.png", 
+      "madeIn": "France",
+      "sex": "Woman",
+      "variants": [
+        { "volume_ml": 35, "price": 85 },
+        { "volume_ml": 50, "price": 110 },
+        { "volume_ml": 80, "price": 135 },
+        { "volume_ml": 125, "price": 152 }
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Sauvage",
+      "brand": "DIOR",
+      "description": "A fresh and powerful scent with bergamot, pepper, and amberwood, evoking freedom, masculinity, and the dark allure of an abuser.",
+      "type": "eau de parfum",
+      "volume": "60 ML",
+      "price": 95,
+      "imageUrl": "parDiorSavage.png", 
+      "madeIn": "France",
+      "sex": "Man",
+      "variants": [
+        { "volume_ml": 60, "price": 95 },
+        { "volume_ml": 100, "price": 135 },
+        { "volume_ml": 200, "price": 190 }
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Good Girl Blush",
+      "brand": "CAROLINA HERRERA",
+      "type": "eau de parfum",
+      "description": "A soft yet confident fragrance that blends fresh bergamot and mandarin with romantic peony and rose, resting on a warm base of vanilla and tonka bean.",
+      "volume": "80 ML",
+      "price": 164,
+      "imageUrl": "parGoodGirl.png", 
+      "madeIn": "USA",
+      "sex": "Woman",
+      "variants": [
+        { "volume_ml": 30, "price": 75 },
+        { "volume_ml": 50, "price": 115 },
+        { "volume_ml": 80, "price": 164 }
+      ]
+    },
+    {
+      "id": 104,
+      "title": "Bleu De Chanel",
+      "brand": "CHANEL",
+      "type": "eau de parfum",
+      "description": "A timeless, elegant fragrance that blends fresh citrus and aromatic woods. It’s a bold yet refined scent that embodies freedom, confidence, and modern masculinity.",
+      "volume": "150 ML",
+      "price": 185,
+      "imageUrl": "parBlueChanel.png", 
+      "madeIn": "France",
+      "sex": "Man",
+      "variants": [
+        { "volume_ml": 50, "price": 98 },
+        { "volume_ml": 100, "price": 145 },
+        { "volume_ml": 150, "price": 185 }
+      ]
+    }
+  ]
+}
