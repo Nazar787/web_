@@ -1,0 +1,12 @@
+.catalogGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 30px; 
+  
+  padding: 40px; 
+}
+
+.errorContainer{
+  display: flex;
+  margin: 0 auto;
+}

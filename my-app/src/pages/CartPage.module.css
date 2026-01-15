@@ -1,0 +1,59 @@
+.cartPageContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  min-height: 70vh;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: #000000d5;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 60px 0;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.emptyState p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 28px;
+}
+
+.itemsList {
+  margin-bottom: 30px;
+}
+
+.totalSection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  border-top: 2px solid #f0f0f0;
+}
+
+.totalLabel {
+  font-size: 20px;
+  color: #666;
+  margin-right: 20px;
+}
+
+.totalValue {
+  font-size: 28px;
+  font-weight: 800;
+  color: #333;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
