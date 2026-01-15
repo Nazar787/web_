@@ -1,0 +1,26 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center; 
+  gap: 40px; 
+  padding: 60px 40px; 
+}
+
+.heroActualImage{
+    height: 500px;
+    margin-left: 150px;
+}
+.heroHeading {
+  font-size: 45px; 
+  font-weight:500;
+  color: #110455;
+  margin-top: 0; 
+  margin-bottom: 16px; 
+}
+
+.heroSubheading {
+  font-size: 18px; 
+  color: #555;
+  line-height: 1.6; 
+  margin: 0;
+}
