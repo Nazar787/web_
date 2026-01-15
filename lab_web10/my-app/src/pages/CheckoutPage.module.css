@@ -1,0 +1,80 @@
+.checkoutContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #000000d5;
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.formGroup label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000d5;
+
+}
+
+.formGroup input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.inputError {
+  border-color: red !important;
+  background-color: #fff0f0;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.backBtn {
+  background-color: white !important;
+  color: #302f2f !important;
+  border: 1px solid #333 !important;
+}
+
+.globalError {
+  background-color: #f8d7da; 
+  color: #721c24;            
+  border: 1px solid #f5c6cb;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.globalError p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.closeIcon {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
