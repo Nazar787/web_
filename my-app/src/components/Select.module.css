@@ -1,0 +1,19 @@
+.selectWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.selectLabel {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+} 
+
+.selectElement {
+  padding: 10px 14px;
+  font-size: 9p;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
